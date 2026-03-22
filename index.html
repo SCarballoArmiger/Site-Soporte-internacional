@@ -1,53 +1,52 @@
+html
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Importación de la fuente Montserrat desde Google Fonts -->
-  <link href="https://fonts.googleapis.com" rel="stylesheet">
-  
-  <style>
-    body {
-      font-family: 'Montserrat', sans-serif; /* Aplicación de la fuente */
-      color: #3c4043; 
-      line-height: 1.6;
-      margin: 0;
-      padding: 15px;
-      font-size: 14px;
-      background-color: transparent;
-    }
-    .titulo-seccion {
-      font-weight: 700; /* Montserrat Negrita */
-      color: #d93025; 
-      text-transform: uppercase;
-      margin-right: 5px;
-    }
-    p {
-      margin-bottom: 20px;
-      text-align: justify;
-      font-weight: 400; /* Montserrat Normal */
-    }
-    .legal-footer {
-      font-size: 13px;
-      color: #70757a;
-      border-top: 1px solid #eeeeee;
-      padding-top: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <style>
+        .contenedor-legal {
+            max-width: 800px; /* Ancho máximo sugerido */
+            margin: 20px auto; /* Centra el contenido en la pantalla */
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            font-size: 14px;
+        }
+
+        .bloque-prohibiciones {
+            background-color: #0056b3; /* Azul SEUR */
+            color: #ffffff;           /* Blanco */
+            padding: 25px;
+            margin-bottom: 15px;
+            text-align: justify;
+            border-radius: 4px;       /* Bordes ligeramente suavizados */
+        }
+
+        .bloque-peligrosas {
+            background-color: #f2f2f2; /* Gris clarito */
+            color: #444444;           /* Gris oscuro */
+            padding: 25px;
+            text-align: justify;
+            border-radius: 4px;
+        }
+
+        strong {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
 
-  <p>
-    <span class="titulo-seccion">Prohibiciones:</span> SEUR no acepta para su envío dinero en efectivo, talones al portador, instrumentos de pago, acciones, joyas, lingotes y similares, antigüedades, sellos, metales preciosos, libranzas, plantas, drogas, tabaco, alcohol, obras de arte, piedras preciosas, armas, publicaciones escritas o audiovisuales prohibidas por ley, cheques de viaje, animales y cualquier tipo de organismo vivo, productos o materiales perecederos, combustibles o peligrosos (salvo por el Servicio de Carga Aérea, siempre que se cumplan los requisitos exigidos en cada caso), bienes u objetos cuyo transporte esté prohibido por alguna disposición legal o reglamentaria o de rango, dictada por Autoridades competentes de cualquiera de los países de expedición, de destino o de tránsito del envío en cuestión.
-  </p>
+    <div class="contenedor-legal">
+        
+        <div class="bloque-prohibiciones">
+            <strong>PROHIBICIONES:</strong> SEUR no acepta para su envío dinero en efectivo, talones al portador, instrumentos de pago, acciones, joyas, lingotes y similares, antigüedades, sellos, metales preciosos, libranzas, plantas, drogas, tabaco, alcohol, obras de arte, piedras preciosas, armas, publicaciones escritas o audiovisuales prohibidas por ley, cheques de viaje, animales y cualquier tipo de organismo vivo, productos o materiales perecederos, combustibles o peligrosos (salvo por el Servicio de Carga Aérea, siempre que se cumplan los requisitos exigidos en cada caso), bienes u objetos cuyo transporte esté prohibido por alguna disposición legal o reglamentaria o de rango, dictada por Autoridades competentes de cualquiera de los países de expedición, de destino o de tránsito del envío en cuestión. Para todo litigio que pudiera sobrevenir entre las partes, está acordada la competencia de los tribunales españoles de Madrid capital que trata de litigios comerciales, sea cual sea el origen o destino de los envíos. Ante cualquier duda consulte con nuestro departamento comercial
+        </div>
 
-  <p>
-    <span class="titulo-seccion">Mercancías Peligrosas:</span> De acuerdo con las normas internacionales e independientemente de las que cada país establece específicamente, no se aceptan aquellas mercancías denominadas “peligrosas” tales como: combustibles, ácidos, radiactivos, explosivos, armas, etc. Los gases están prohibidos salvo aquellos casos en que por su presentación y envasado puedan ser calificados como de uso personal (aerosoles, espumas de afeitar, perfumes, etc.). El cliente que desea facturar mercancía peligrosa embalada en cantidad limitada (LQ), deberá asegurar el cumplimiento del Acuerdo Europeo sobre Transporte Internacional de Mercancías Peligrosas por Carretera (ADR) en cuanto a tipología de mercancía, cantidad máxima permitida, embalajes homologados para las diferentes condiciones de transporte y los diferentes distintivos necesarios para incorporar en los bultos. Además, el cliente deberá informar a SEUR del contenido, tamaño y peso de la misma, así como cualquier otra información que se le solicite.
-  </p>
+        <div class="bloque-peligrosas">
+            <strong>MERCANCÍAS PELIGROSAS:</strong> De acuerdo con las normas internacionales e independientemente de las que cada país establece específicamente, no se aceptan aquellas mercancías denominadas “peligrosas” tales como: combustibles, ácidos, radiactivos, explosivos, armas, etc. Los gases están prohibidos salvo aquellos casos en que por su presentación y envasado puedan ser calificados como de uso personal (aerosoles, espumas de afeitar, perfumes, etc.,). El cliente que desea facturar mercancía peligrosa embalada en cantidad limitada (LQ), deberá asegurar el cumplimiento del Acuerdo Europeo sobre Transporte Internacional de Mercancías Peligrosas por Carretera (ADR) en cuanto a tipología de mercancía, cantidad máxima permitida, embalajes homologados para las diferentes condiciones de transporte y los diferentes distintivos necesarios para incorporar en los bultos. Además, el cliente deberá informar a SEUR del contenido, tamaño y peso de la misma, así como cualquier otra información que se le solicite
+        </div>
 
-  <p class="legal-footer">
-    Para todo litigio que pudiera sobrevenir entre las partes, está acordada la competencia de los tribunales españoles de Madrid capital que trata de litigios comerciales, sea cual sea el origen o destino de los envíos. Ante cualquier duda consulte con nuestro departamento comercial.
-  </p>
+    </div>
 
 </body>
 </html>
